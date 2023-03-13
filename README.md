@@ -13,3 +13,4 @@ Simple one static page.
 - React,js Library
 - CRA (create-react-App)
 - VS code
+- Font Awesome

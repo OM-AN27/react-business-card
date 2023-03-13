@@ -1,0 +1,22 @@
+/* soft reset */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #23252C;
+    padding: 30px 0;
+}
+
+.business-card {
+    background-color: #1A1B21;
+    height: 40rem;
+}
+
