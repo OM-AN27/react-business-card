@@ -1,6 +1,6 @@
 # React Business Card
 
-Introductiory Business card, using the Javascript library Reacts.js
+Introductiory Business card, using the Javascript library React.js
 Simple one static page.
 
 ## Learnings
