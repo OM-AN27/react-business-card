@@ -13,10 +13,77 @@ body {
     padding: 0;
     background-color: #23252C;
     padding: 30px 0;
+    font-family: "inter", Arial, Helvetica, sans-serif;
 }
 
 .business-card {
     background-color: #1A1B21;
-    height: 40rem;
+    max-width: 500px;
+    border-radius: 10px;
 }
+
+.profile-pic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.prof-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: white;
+    margin: 15px 0 20px 0;
+    font-weight: 700;
+}
+
+.title {
+    color: #F3BF99;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.btns-wrapper .btn {
+    border: none;
+    font-size: 18px;
+    padding: 9px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btns-wrapper .btn:nth-child(2) {
+    background-color: #5093E2;
+    color: white;
+}
+
+.about-wrapper, .interests-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.texts {
+    color: #DCDCDC;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #161619;
+    padding: 20px 50px;
+    margin-top: 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-wrapper i {
+    color: #918E9B;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+
 
