@@ -15,10 +15,21 @@ export default function App() {
 
     const handleClick = (e) => {
         e.preventDefault();
+
+        //get body's current class
+
+        const theBody = document.body.className;
+
+        //change body background
+
+        theBody.includes('dark') ? document.body.classList.remove('dark-body') :  document.body.classList.add('dark-body');
+
         darkMode === 'light' ? setDarkMode("dark"): setDarkMode("light");
         btnText === 'Dark' ? setBtnText("Light"): setBtnText("Dark");
+
         
-        console.log(`ive been clicked and button val is ${darkMode}`);
+        
+        console.log(`ignore me, these are not the droids you are lookign for... ${darkMode}`);
 
     }
 

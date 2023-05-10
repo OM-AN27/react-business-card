@@ -11,18 +11,27 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: #23252C;
     padding: 30px 0;
     font-family: "inter", Arial, Helvetica, sans-serif;
+    transition: background-color 0.5s ease;
+
+}
+
+.dark-body {
+    background-color: #23252C;
+    transition: background-color 0.5s ease;
+
 }
 
 .dark {
     background-color: #1A1B21;
+    transition: background-color 0.5s ease;
     color: white;
 }
 
 .light {
     background-color: #f7f7f7;
+    transition: background-color 0.5s ease;
     color: black;
 }
 
