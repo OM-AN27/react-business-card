@@ -16,8 +16,17 @@ body {
     font-family: "inter", Arial, Helvetica, sans-serif;
 }
 
-.business-card {
+.dark {
     background-color: #1A1B21;
+    color: white;
+}
+
+.light {
+    background-color: #f7f7f7;
+    color: black;
+}
+
+#business-card {
     max-width: 500px;
     border-radius: 10px;
 }
@@ -27,6 +36,7 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
+
 .prof-wrapper {
     display: flex;
     flex-direction: column;
@@ -35,7 +45,6 @@ body {
 }
 
 .name {
-    color: white;
     margin: 15px 0 20px 0;
     font-weight: 700;
 }
@@ -60,15 +69,25 @@ body {
     color: white;
 }
 
+
+.btn-dark-wrapper {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+
+.btn--dark_mode {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 .about-wrapper, .interests-wrapper {
     max-width: 400px;
     margin: 0 auto;
-    color: white;
 }
 
-.texts {
-    color: #DCDCDC;
-}
 
 .footer-wrapper {
     display: flex;
